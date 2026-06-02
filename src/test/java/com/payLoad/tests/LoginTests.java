@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 
 public class LoginTests extends TestBase {
-
     LoginRequestDto requestDto = LoginRequestDto.of(EMAIL,PASSWORD);
 
     @Test
